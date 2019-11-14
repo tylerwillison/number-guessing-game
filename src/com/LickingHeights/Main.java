@@ -10,11 +10,17 @@ public class Main {
 	int guess;
 	int answer;
 	answer = (int) (Math.random() * 100);
+	String playagain;
+    playagain = "yes";
+    playagain = null;
+    guess = 5;
+    Scanner keyboard;
+    keyboard = new Scanner(System.in);
+    guess = keyboard.nextInt();
+
+    
 
 
-
-
-			)
 
     }
 }
